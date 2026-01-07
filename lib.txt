@@ -1,0 +1,70 @@
+LIB IN C CODE:
+
+
+1) Math file:
+   
+   # include <math.h>   // helps us perform math funtions
+
+   sqrt(num <name of our variable>) // calculate square root
+   cbrt(num <name of our variable>) // calculate cube root
+   pow(<name of our variable1> , <name of our variable2>) ) // calculate power raise to other varaible
+   ceil() // ceiling value is found for example if we have 2.5 it will return 3
+   floor() // finds lower value for example if we have 2.5 it will return 2
+   fabs() // provides absolute values
+   sin()
+   cos()
+   tan()
+
+2) Character type file:
+
+   # include <ctype.h>   // works on characters
+   
+   toupper(<our character value>)  // converts our character to upper case
+   tolower(<our character value>)  // converts our character to lower case
+   isalpha() // checks if its an alphabet
+   isdigit() // checks if its an digit
+   isupper(<our character value>)  // checks if the character is in upper case
+   tolower(<our character value>)  // checks if the character is in lower case
+
+3) Lib:
+
+   # include <stdlib.h>   // general utility
+
+   atof() // converts string to float
+   atoi() // converts string to integer
+   atol() // converts string to long integer
+   atoll() // converts string to long long integer
+   rand()  // generates random value
+   exit()  // terminate the program and no value in return
+   abort() // terminate the program
+
+4) Console Input Output:
+
+  # include <conio.h>  
+  
+  clrscr() // clear the screen
+  getch() // gets character 
+
+5) String Handling:
+
+   # include <string.h>
+   
+   strlen() // finds length of the string
+   strlwr() // converts string to the lower case
+   strrev() // reverse the string 
+   strupr() // converts string to the upper case
+   strcpy() // copy one string to another
+   strcat() // concatenate 2 strings
+   strcmp() // compare 2 strings
+   strdup() // makes duplicate of strings
+   strchr() // finds given character in the string
+   strstr() // finds given substring in the string
+    
+
+   
+
+
+
+
+
+
